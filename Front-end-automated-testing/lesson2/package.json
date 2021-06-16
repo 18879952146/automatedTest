@@ -7,12 +7,12 @@
     "test": "jest",
     "coverage": "jest --coverage"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.4.5",
-    "@babel/preset-env": "7.4.5",
-    "jest": "24.8.0"
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0"
   }
 }

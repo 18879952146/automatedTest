@@ -9,13 +9,13 @@ module.exports = {
   // bail: 0,
 
   // Respect "browser" field in package.json when resolving modules
-  browser: false,
+  // browser: false,
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "/private/var/folders/w4/nffxss0d6216rrl7xqdvr_4w0000gn/T/jest_dx",
 
   // Automatically clear mock calls and instances between every test
-  clearMocks: false,
+  clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
   // collectCoverage: false,
