@@ -11,6 +11,7 @@ module.exports = {
   ],
   "setupFilesAfterEnv": [
     "<rootDir>/src/setupTests.js",
+    "<rootDir>/src/utils/testSetup.js",
     './node_modules/jest-enzyme/lib/index'
   ],
   "testMatch": [

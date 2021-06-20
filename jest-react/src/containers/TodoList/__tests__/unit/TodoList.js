@@ -1,10 +1,7 @@
 // import { render, screen } from '@testing-library/react';
 import React from 'react'
 import TodoList from '../../index';
-import Enzyme, {shallow} from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-
-Enzyme.configure({ adapter: new Adapter() });
+import {shallow} from 'enzyme';
 
 test('TodoList 初始化列表为空', () => {
   const wrapper = shallow(<TodoList />);
